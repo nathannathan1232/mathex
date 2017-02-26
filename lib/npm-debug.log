@@ -1,0 +1,578 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'sync-prompt' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData sync-prompt
+8 silly fetchNamedPackageData sync-prompt
+9 silly mapToRegistry name sync-prompt
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'sync-prompt',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'sync-prompt',
+12 silly mapToRegistry   name: 'sync-prompt',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/sync-prompt
+14 verbose request uri https://registry.npmjs.org/sync-prompt
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 2:37:46 PM
+17 verbose request id 57e02fe62f8d5cd0
+18 http request GET https://registry.npmjs.org/sync-prompt
+19 http 200 https://registry.npmjs.org/sync-prompt
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Sun, 08 Mar 2015 01:12:30 GMT',
+20 verbose headers   etag: 'W/"54fba1fe-547f"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '3180',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Sun, 26 Feb 2017 22:37:47 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-sea1034-SEA',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1488148667.167128,VS0,VE21',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Sun, 08 Mar 2015 01:12:30 GMT',
+21 silly get     etag: 'W/"54fba1fe-547f"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '3180',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Sun, 26 Feb 2017 22:37:47 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-sea1034-SEA',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1488148667.167128,VS0,VE21',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving sync-prompt to /home/nathan/.npm/registry.npmjs.org/sync-prompt/.cache.json
+23 verbose correctMkdir /home/nathan/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule sync-prompt@0.4.2 checking installable status
+37 silly cache add args [ 'sync-prompt', null ]
+38 verbose cache add spec sync-prompt
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'sync-prompt',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'sync-prompt',
+39 silly cache add   name: 'sync-prompt',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed sync-prompt@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for sync-prompt
+42 info addNameTag [ 'sync-prompt', 'latest' ]
+43 silly mapToRegistry name sync-prompt
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'sync-prompt',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'sync-prompt',
+46 silly mapToRegistry   name: 'sync-prompt',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/sync-prompt
+48 verbose addNameTag registry:https://registry.npmjs.org/sync-prompt not in flight; fetching
+49 verbose get https://registry.npmjs.org/sync-prompt not expired, no request
+50 silly addNameTag next cb for sync-prompt with tag latest
+51 silly addNamed sync-prompt@0.4.2
+52 verbose addNamed "0.4.2" is a plain semver version for sync-prompt
+53 silly mapToRegistry name sync-prompt
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'sync-prompt',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'sync-prompt',
+56 silly mapToRegistry   name: 'sync-prompt',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/sync-prompt
+58 verbose addRemoteTarball https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.4.2.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.4.2.tgz',
+59 verbose addRemoteTarball   '9bf28c298dbd362189713087c277b4e903aaf371' ]
+60 info retry fetch attempt 1 at 2:37:47 PM
+61 info attempt registry request try #1 at 2:37:47 PM
+62 http fetch GET https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.4.2.tgz
+63 http fetch 200 https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.4.2.tgz
+64 silly fetchAndShaCheck shasum 9bf28c298dbd362189713087c277b4e903aaf371
+65 verbose addTmpTarball /tmp/npm-23996-1cf22b12/registry.npmjs.org/sync-prompt/-/sync-prompt-0.4.2.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for sync-prompt@0.4.2
+67 verbose correctMkdir /home/nathan/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd sync-prompt@0.4.2
+69 verbose afterAdd /home/nathan/.npm/sync-prompt/0.4.2/package/package.json not in flight; writing
+70 verbose correctMkdir /home/nathan/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /home/nathan/.npm/sync-prompt/0.4.2/package/package.json written
+72 silly loadAllDepsIntoIdealTree Finishing
+73 silly loadIdealTree Finishing
+74 silly currentTree a@1.0.0
+74 silly currentTree ├── abab@1.0.3
+74 silly currentTree ├── acorn-globals@1.0.9
+74 silly currentTree ├── acorn@2.7.0
+74 silly currentTree ├── amdefine@1.0.1
+74 silly currentTree ├── ansi-regex@2.0.0
+74 silly currentTree ├── ansi-styles@2.2.1
+74 silly currentTree ├── argparse@1.0.9
+74 silly currentTree ├── array-equal@1.0.0
+74 silly currentTree ├── asn1@0.2.3
+74 silly currentTree ├── assert-plus@0.2.0
+74 silly currentTree ├── async@0.9.2
+74 silly currentTree ├── asynckit@0.4.0
+74 silly currentTree ├── aws-sign2@0.6.0
+74 silly currentTree ├── aws4@1.5.0
+74 silly currentTree ├── balanced-match@0.4.2
+74 silly currentTree ├── bcrypt-pbkdf@1.0.0
+74 silly currentTree ├── boom@2.10.1
+74 silly currentTree ├── brace-expansion@1.1.6
+74 silly currentTree ├── caseless@0.11.0
+74 silly currentTree ├── chalk@1.1.3
+74 silly currentTree ├── charenc@0.0.2
+74 silly currentTree ├── color-convert@1.9.0
+74 silly currentTree ├── color-name@1.1.1
+74 silly currentTree ├── color-string@1.4.0
+74 silly currentTree ├── color@1.0.3
+74 silly currentTree ├── colors@1.1.2
+74 silly currentTree ├── combined-stream@1.0.5
+74 silly currentTree ├── commander@2.9.0
+74 silly currentTree ├── concat-map@0.0.1
+74 silly currentTree ├── content-type-parser@1.0.1
+74 silly currentTree ├── crypt@0.0.2
+74 silly currentTree ├── cryptiles@2.0.5
+74 silly currentTree ├── cssom@0.3.1
+74 silly currentTree ├── cssstyle@0.2.37
+74 silly currentTree ├── cycle@1.0.3
+74 silly currentTree ├─┬ dashdash@1.14.1
+74 silly currentTree │ └── assert-plus@1.0.0
+74 silly currentTree ├── deep-equal@0.2.2
+74 silly currentTree ├── deep-is@0.1.3
+74 silly currentTree ├── delayed-stream@1.0.0
+74 silly currentTree ├── ecc-jsbn@0.1.1
+74 silly currentTree ├── escape-string-regexp@1.0.5
+74 silly currentTree ├── escodegen@1.8.1
+74 silly currentTree ├── esprima@2.7.3
+74 silly currentTree ├── estraverse@1.9.3
+74 silly currentTree ├── esutils@2.0.2
+74 silly currentTree ├── extend@3.0.0
+74 silly currentTree ├── extsprintf@1.0.2
+74 silly currentTree ├── eyes@0.1.8
+74 silly currentTree ├── fast-levenshtein@2.0.6
+74 silly currentTree ├── forever-agent@0.6.1
+74 silly currentTree ├── form-data@2.1.2
+74 silly currentTree ├── fs.realpath@1.0.0
+74 silly currentTree ├── fs@0.0.1-security
+74 silly currentTree ├── generate-function@2.0.0
+74 silly currentTree ├── generate-object-property@1.2.0
+74 silly currentTree ├─┬ getpass@0.1.6
+74 silly currentTree │ └── assert-plus@1.0.0
+74 silly currentTree ├── glob@7.1.1
+74 silly currentTree ├── graceful-readlink@1.0.1
+74 silly currentTree ├── har-validator@2.0.6
+74 silly currentTree ├── has-ansi@2.0.0
+74 silly currentTree ├── hawk@3.1.3
+74 silly currentTree ├── hoek@2.16.3
+74 silly currentTree ├── horseman@0.2.1
+74 silly currentTree ├── html-encoding-sniffer@1.0.1
+74 silly currentTree ├── http-signature@1.1.1
+74 silly currentTree ├── i@0.3.5
+74 silly currentTree ├── iconv-lite@0.4.15
+74 silly currentTree ├── inflight@1.0.6
+74 silly currentTree ├── inherits@2.0.3
+74 silly currentTree ├── is-arrayish@0.3.1
+74 silly currentTree ├── is-buffer@1.1.4
+74 silly currentTree ├── is-my-json-valid@2.15.0
+74 silly currentTree ├── is-property@1.0.2
+74 silly currentTree ├── is-typedarray@1.0.0
+74 silly currentTree ├── isstream@0.1.2
+74 silly currentTree ├── jodid25519@1.0.2
+74 silly currentTree ├── jsbn@0.1.0
+74 silly currentTree ├── jsdom@9.9.1
+74 silly currentTree ├── json-schema@0.2.3
+74 silly currentTree ├── json-stringify-safe@5.0.1
+74 silly currentTree ├── json2yaml@1.1.0
+74 silly currentTree ├── jsonpointer@4.0.1
+74 silly currentTree ├── jsprim@1.3.1
+74 silly currentTree ├── levn@0.3.0
+74 silly currentTree ├── md5@2.2.1
+74 silly currentTree ├── mime-db@1.25.0
+74 silly currentTree ├── mime-types@2.1.13
+74 silly currentTree ├── minimatch@3.0.3
+74 silly currentTree ├── minimist@0.0.8
+74 silly currentTree ├── mkdirp@0.5.1
+74 silly currentTree ├── mute-stream@0.0.7
+74 silly currentTree ├── ncp@1.0.1
+74 silly currentTree ├── nwmatcher@1.3.9
+74 silly currentTree ├── oauth-sign@0.8.2
+74 silly currentTree ├── once@1.4.0
+74 silly currentTree ├── optionator@0.8.2
+74 silly currentTree ├── parse5@1.5.1
+74 silly currentTree ├── path-is-absolute@1.0.1
+74 silly currentTree ├── pinkie-promise@2.0.1
+74 silly currentTree ├── pinkie@2.0.4
+74 silly currentTree ├── pkginfo@0.4.0
+74 silly currentTree ├── prelude-ls@1.1.2
+74 silly currentTree ├─┬ prettyjson@1.2.1
+74 silly currentTree │ └── minimist@1.2.0
+74 silly currentTree ├── prompt-sync@4.1.4
+74 silly currentTree ├── prompt@1.0.0
+74 silly currentTree ├── punycode@1.4.1
+74 silly currentTree ├── qs@6.3.0
+74 silly currentTree ├── read@1.0.7
+74 silly currentTree ├── remedial@1.0.7
+74 silly currentTree ├── request@2.79.0
+74 silly currentTree ├── revalidator@0.1.8
+74 silly currentTree ├── rimraf@2.5.4
+74 silly currentTree ├── sax@1.2.1
+74 silly currentTree ├── simple-swizzle@0.2.2
+74 silly currentTree ├── sntp@1.0.9
+74 silly currentTree ├── source-map@0.2.0
+74 silly currentTree ├── sprintf-js@1.0.3
+74 silly currentTree ├─┬ sshpk@1.10.1
+74 silly currentTree │ └── assert-plus@1.0.0
+74 silly currentTree ├── stack-trace@0.0.9
+74 silly currentTree ├── stringstream@0.0.5
+74 silly currentTree ├── strip-ansi@3.0.1
+74 silly currentTree ├── supports-color@2.0.0
+74 silly currentTree ├── symbol-tree@3.2.1
+74 silly currentTree ├── tough-cookie@2.3.2
+74 silly currentTree ├── tr46@0.0.3
+74 silly currentTree ├── treeify@1.0.1
+74 silly currentTree ├── tunnel-agent@0.4.3
+74 silly currentTree ├── tweetnacl@0.14.5
+74 silly currentTree ├── type-check@0.3.2
+74 silly currentTree ├── utile@0.3.0
+74 silly currentTree ├── uuid@3.0.1
+74 silly currentTree ├── verror@1.3.6
+74 silly currentTree ├── webidl-conversions@3.0.1
+74 silly currentTree ├─┬ whatwg-encoding@1.0.1
+74 silly currentTree │ └── iconv-lite@0.4.13
+74 silly currentTree ├── whatwg-url@4.3.0
+74 silly currentTree ├─┬ winston@2.1.1
+74 silly currentTree │ ├── async@1.0.0
+74 silly currentTree │ ├── colors@1.0.3
+74 silly currentTree │ └── pkginfo@0.3.1
+74 silly currentTree ├── wordwrap@1.0.0
+74 silly currentTree ├── wrappy@1.0.2
+74 silly currentTree ├── xml-name-validator@2.0.1
+74 silly currentTree ├── xtend@4.0.1
+74 silly currentTree └── yamljs@0.2.8
+75 silly idealTree a@1.0.0
+75 silly idealTree ├── abab@1.0.3
+75 silly idealTree ├── acorn-globals@1.0.9
+75 silly idealTree ├── acorn@2.7.0
+75 silly idealTree ├── amdefine@1.0.1
+75 silly idealTree ├── ansi-regex@2.0.0
+75 silly idealTree ├── ansi-styles@2.2.1
+75 silly idealTree ├── argparse@1.0.9
+75 silly idealTree ├── array-equal@1.0.0
+75 silly idealTree ├── asn1@0.2.3
+75 silly idealTree ├── assert-plus@0.2.0
+75 silly idealTree ├── async@0.9.2
+75 silly idealTree ├── asynckit@0.4.0
+75 silly idealTree ├── aws-sign2@0.6.0
+75 silly idealTree ├── aws4@1.5.0
+75 silly idealTree ├── balanced-match@0.4.2
+75 silly idealTree ├── bcrypt-pbkdf@1.0.0
+75 silly idealTree ├── boom@2.10.1
+75 silly idealTree ├── brace-expansion@1.1.6
+75 silly idealTree ├── caseless@0.11.0
+75 silly idealTree ├── chalk@1.1.3
+75 silly idealTree ├── charenc@0.0.2
+75 silly idealTree ├── color-convert@1.9.0
+75 silly idealTree ├── color-name@1.1.1
+75 silly idealTree ├── color-string@1.4.0
+75 silly idealTree ├── color@1.0.3
+75 silly idealTree ├── colors@1.1.2
+75 silly idealTree ├── combined-stream@1.0.5
+75 silly idealTree ├── commander@2.9.0
+75 silly idealTree ├── concat-map@0.0.1
+75 silly idealTree ├── content-type-parser@1.0.1
+75 silly idealTree ├── crypt@0.0.2
+75 silly idealTree ├── cryptiles@2.0.5
+75 silly idealTree ├── cssom@0.3.1
+75 silly idealTree ├── cssstyle@0.2.37
+75 silly idealTree ├── cycle@1.0.3
+75 silly idealTree ├─┬ dashdash@1.14.1
+75 silly idealTree │ └── assert-plus@1.0.0
+75 silly idealTree ├── deep-equal@0.2.2
+75 silly idealTree ├── deep-is@0.1.3
+75 silly idealTree ├── delayed-stream@1.0.0
+75 silly idealTree ├── ecc-jsbn@0.1.1
+75 silly idealTree ├── escape-string-regexp@1.0.5
+75 silly idealTree ├── escodegen@1.8.1
+75 silly idealTree ├── esprima@2.7.3
+75 silly idealTree ├── estraverse@1.9.3
+75 silly idealTree ├── esutils@2.0.2
+75 silly idealTree ├── extend@3.0.0
+75 silly idealTree ├── extsprintf@1.0.2
+75 silly idealTree ├── eyes@0.1.8
+75 silly idealTree ├── fast-levenshtein@2.0.6
+75 silly idealTree ├── forever-agent@0.6.1
+75 silly idealTree ├── form-data@2.1.2
+75 silly idealTree ├── fs.realpath@1.0.0
+75 silly idealTree ├── fs@0.0.1-security
+75 silly idealTree ├── generate-function@2.0.0
+75 silly idealTree ├── generate-object-property@1.2.0
+75 silly idealTree ├─┬ getpass@0.1.6
+75 silly idealTree │ └── assert-plus@1.0.0
+75 silly idealTree ├── glob@7.1.1
+75 silly idealTree ├── graceful-readlink@1.0.1
+75 silly idealTree ├── har-validator@2.0.6
+75 silly idealTree ├── has-ansi@2.0.0
+75 silly idealTree ├── hawk@3.1.3
+75 silly idealTree ├── hoek@2.16.3
+75 silly idealTree ├── horseman@0.2.1
+75 silly idealTree ├── html-encoding-sniffer@1.0.1
+75 silly idealTree ├── http-signature@1.1.1
+75 silly idealTree ├── i@0.3.5
+75 silly idealTree ├── iconv-lite@0.4.15
+75 silly idealTree ├── inflight@1.0.6
+75 silly idealTree ├── inherits@2.0.3
+75 silly idealTree ├── is-arrayish@0.3.1
+75 silly idealTree ├── is-buffer@1.1.4
+75 silly idealTree ├── is-my-json-valid@2.15.0
+75 silly idealTree ├── is-property@1.0.2
+75 silly idealTree ├── is-typedarray@1.0.0
+75 silly idealTree ├── isstream@0.1.2
+75 silly idealTree ├── jodid25519@1.0.2
+75 silly idealTree ├── jsbn@0.1.0
+75 silly idealTree ├── jsdom@9.9.1
+75 silly idealTree ├── json-schema@0.2.3
+75 silly idealTree ├── json-stringify-safe@5.0.1
+75 silly idealTree ├── json2yaml@1.1.0
+75 silly idealTree ├── jsonpointer@4.0.1
+75 silly idealTree ├── jsprim@1.3.1
+75 silly idealTree ├── levn@0.3.0
+75 silly idealTree ├── md5@2.2.1
+75 silly idealTree ├── mime-db@1.25.0
+75 silly idealTree ├── mime-types@2.1.13
+75 silly idealTree ├── minimatch@3.0.3
+75 silly idealTree ├── minimist@0.0.8
+75 silly idealTree ├── mkdirp@0.5.1
+75 silly idealTree ├── mute-stream@0.0.7
+75 silly idealTree ├── ncp@1.0.1
+75 silly idealTree ├── nwmatcher@1.3.9
+75 silly idealTree ├── oauth-sign@0.8.2
+75 silly idealTree ├── once@1.4.0
+75 silly idealTree ├── optionator@0.8.2
+75 silly idealTree ├── parse5@1.5.1
+75 silly idealTree ├── path-is-absolute@1.0.1
+75 silly idealTree ├── pinkie-promise@2.0.1
+75 silly idealTree ├── pinkie@2.0.4
+75 silly idealTree ├── pkginfo@0.4.0
+75 silly idealTree ├── prelude-ls@1.1.2
+75 silly idealTree ├─┬ prettyjson@1.2.1
+75 silly idealTree │ └── minimist@1.2.0
+75 silly idealTree ├── prompt-sync@4.1.4
+75 silly idealTree ├── prompt@1.0.0
+75 silly idealTree ├── punycode@1.4.1
+75 silly idealTree ├── qs@6.3.0
+75 silly idealTree ├── read@1.0.7
+75 silly idealTree ├── remedial@1.0.7
+75 silly idealTree ├── request@2.79.0
+75 silly idealTree ├── revalidator@0.1.8
+75 silly idealTree ├── rimraf@2.5.4
+75 silly idealTree ├── sax@1.2.1
+75 silly idealTree ├── simple-swizzle@0.2.2
+75 silly idealTree ├── sntp@1.0.9
+75 silly idealTree ├── source-map@0.2.0
+75 silly idealTree ├── sprintf-js@1.0.3
+75 silly idealTree ├─┬ sshpk@1.10.1
+75 silly idealTree │ └── assert-plus@1.0.0
+75 silly idealTree ├── stack-trace@0.0.9
+75 silly idealTree ├── stringstream@0.0.5
+75 silly idealTree ├── strip-ansi@3.0.1
+75 silly idealTree ├── supports-color@2.0.0
+75 silly idealTree ├── symbol-tree@3.2.1
+75 silly idealTree ├── sync-prompt@0.4.2
+75 silly idealTree ├── tough-cookie@2.3.2
+75 silly idealTree ├── tr46@0.0.3
+75 silly idealTree ├── treeify@1.0.1
+75 silly idealTree ├── tunnel-agent@0.4.3
+75 silly idealTree ├── tweetnacl@0.14.5
+75 silly idealTree ├── type-check@0.3.2
+75 silly idealTree ├── utile@0.3.0
+75 silly idealTree ├── uuid@3.0.1
+75 silly idealTree ├── verror@1.3.6
+75 silly idealTree ├── webidl-conversions@3.0.1
+75 silly idealTree ├─┬ whatwg-encoding@1.0.1
+75 silly idealTree │ └── iconv-lite@0.4.13
+75 silly idealTree ├── whatwg-url@4.3.0
+75 silly idealTree ├─┬ winston@2.1.1
+75 silly idealTree │ ├── async@1.0.0
+75 silly idealTree │ ├── colors@1.0.3
+75 silly idealTree │ └── pkginfo@0.3.1
+75 silly idealTree ├── wordwrap@1.0.0
+75 silly idealTree ├── wrappy@1.0.2
+75 silly idealTree ├── xml-name-validator@2.0.1
+75 silly idealTree ├── xtend@4.0.1
+75 silly idealTree └── yamljs@0.2.8
+76 silly generateActionsToTake Starting
+77 silly install generateActionsToTake
+78 silly generateActionsToTake Finishing
+79 silly diffTrees action count 1
+80 silly diffTrees add sync-prompt@0.4.2
+81 silly decomposeActions action count 8
+82 silly decomposeActions fetch sync-prompt@0.4.2
+83 silly decomposeActions extract sync-prompt@0.4.2
+84 silly decomposeActions test sync-prompt@0.4.2
+85 silly decomposeActions preinstall sync-prompt@0.4.2
+86 silly decomposeActions build sync-prompt@0.4.2
+87 silly decomposeActions install sync-prompt@0.4.2
+88 silly decomposeActions postinstall sync-prompt@0.4.2
+89 silly decomposeActions finalize sync-prompt@0.4.2
+90 silly runTopLevelLifecycles Starting
+91 silly executeActions Starting
+92 silly install executeActions
+93 silly doSerial global-install 0
+94 silly doParallel fetch 1
+95 verbose correctMkdir /home/nathan/.npm/_locks correctMkdir not in flight; initializing
+96 verbose lock using /home/nathan/.npm/_locks/staging-0e5ccf391bdca84e.lock for /home/nathan/Documents/node_modules/.staging
+97 silly doParallel extract 1
+98 silly extract sync-prompt@0.4.2
+99 verbose unbuild node_modules/.staging/sync-prompt-21fe5b16
+100 silly gentlyRm /home/nathan/Documents/node_modules/.staging/sync-prompt-21fe5b16 is being purged from base /home/nathan/Documents
+101 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/.staging/sync-prompt-21fe5b16
+102 verbose tar unpack /home/nathan/.npm/sync-prompt/0.4.2/package.tgz
+103 verbose tar unpacking to /home/nathan/Documents/node_modules/.staging/sync-prompt-21fe5b16
+104 silly gentlyRm /home/nathan/Documents/node_modules/.staging/sync-prompt-21fe5b16 is being purged
+105 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/.staging/sync-prompt-21fe5b16
+106 silly gunzTarPerm modes [ '755', '644' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm extractEntry .npmignore
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm extractEntry LICENSE
+111 silly gunzTarPerm extractEntry test.js
+112 silly gunzTarPerm extractEntry HISTORY.md
+113 silly gunzTarPerm extractEntry binding.gyp
+114 silly gunzTarPerm extractEntry lib/sync-prompt.js
+115 silly gunzTarPerm extractEntry src/sync_prompt.cc
+116 silly gentlyRm /home/nathan/Documents/node_modules/.staging/sync-prompt-21fe5b16/node_modules is being purged
+117 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/.staging/sync-prompt-21fe5b16/node_modules
+118 silly doParallel preinstall 1
+119 silly preinstall sync-prompt@0.4.2
+120 info lifecycle sync-prompt@0.4.2~preinstall: sync-prompt@0.4.2
+121 silly lifecycle sync-prompt@0.4.2~preinstall: no script for preinstall, continuing
+122 silly doReverseSerial remove 0
+123 silly doSerial move 0
+124 silly doSerial finalize 1
+125 silly finalize /home/nathan/Documents/node_modules/sync-prompt
+126 silly doSerial build 1
+127 silly build sync-prompt@0.4.2
+128 info linkStuff sync-prompt@0.4.2
+129 silly linkStuff sync-prompt@0.4.2 has /home/nathan/Documents/node_modules as its parent node_modules
+130 verbose linkBins sync-prompt@0.4.2
+131 verbose linkMans sync-prompt@0.4.2
+132 silly doSerial global-link 0
+133 silly doParallel update-linked 0
+134 silly doSerial install 1
+135 silly install sync-prompt@0.4.2
+136 info lifecycle sync-prompt@0.4.2~install: sync-prompt@0.4.2
+137 verbose lifecycle sync-prompt@0.4.2~install: unsafe-perm in lifecycle true
+138 verbose lifecycle sync-prompt@0.4.2~install: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/nathan/Documents/node_modules/sync-prompt/node_modules/.bin:/home/nathan/Documents/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+139 verbose lifecycle sync-prompt@0.4.2~install: CWD: /home/nathan/Documents/node_modules/sync-prompt
+140 silly lifecycle sync-prompt@0.4.2~install: Args: [ '-c', 'node-gyp rebuild' ]
+141 silly lifecycle sync-prompt@0.4.2~install: Returned: code: 1  signal: null
+142 info lifecycle sync-prompt@0.4.2~install: Failed to exec install script
+143 verbose unlock done using /home/nathan/.npm/_locks/staging-0e5ccf391bdca84e.lock for /home/nathan/Documents/node_modules/.staging
+144 silly rollbackFailedOptional Starting
+145 silly gentlyRm /home/nathan/Documents/node_modules/sync-prompt is being purged from base /home/nathan/Documents
+146 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/sync-prompt
+147 silly gentlyRm /home/nathan/Documents/node_modules/sync-prompt is being purged from base /home/nathan/Documents
+148 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/sync-prompt
+149 silly gentlyRm /home/nathan/Documents/node_modules/sync-prompt is being purged from base /home/nathan/Documents
+150 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/sync-prompt
+151 silly gentlyRm /home/nathan/Documents/node_modules/sync-prompt is being purged from base /home/nathan/Documents
+152 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/sync-prompt
+153 silly gentlyRm /home/nathan/Documents/node_modules/sync-prompt is being purged from base /home/nathan/Documents
+154 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/sync-prompt
+155 silly gentlyRm /home/nathan/Documents/node_modules/sync-prompt is being purged from base /home/nathan/Documents
+156 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/sync-prompt
+157 silly gentlyRm /home/nathan/Documents/node_modules/sync-prompt is being purged from base /home/nathan/Documents
+158 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/sync-prompt
+159 silly gentlyRm /home/nathan/Documents/node_modules/sync-prompt is being purged from base /home/nathan/Documents
+160 verbose gentlyRm don't care about contents; nuking /home/nathan/Documents/node_modules/sync-prompt
+161 silly vacuum-fs purging /home/nathan/Documents/node_modules/sync-prompt
+162 silly vacuum-fs purging /home/nathan/Documents/node_modules/sync-prompt
+163 silly vacuum-fs purging /home/nathan/Documents/node_modules/sync-prompt
+164 silly vacuum-fs purging /home/nathan/Documents/node_modules/sync-prompt
+165 silly vacuum-fs purging /home/nathan/Documents/node_modules/sync-prompt
+166 silly vacuum-fs purging /home/nathan/Documents/node_modules/sync-prompt
+167 silly vacuum-fs purging /home/nathan/Documents/node_modules/sync-prompt
+168 silly vacuum-fs purging /home/nathan/Documents/node_modules/sync-prompt
+169 silly vacuum-fs quitting because other entries in /home/nathan/Documents/node_modules
+170 silly vacuum-fs quitting because other entries in /home/nathan/Documents/node_modules
+171 silly vacuum-fs quitting because other entries in /home/nathan/Documents/node_modules
+172 silly vacuum-fs quitting because other entries in /home/nathan/Documents/node_modules
+173 silly vacuum-fs quitting because other entries in /home/nathan/Documents/node_modules
+174 silly vacuum-fs quitting because other entries in /home/nathan/Documents/node_modules
+175 silly vacuum-fs quitting because other entries in /home/nathan/Documents/node_modules
+176 silly vacuum-fs quitting because other entries in /home/nathan/Documents/node_modules
+177 silly rollbackFailedOptional Finishing
+178 silly runTopLevelLifecycles Finishing
+179 silly install printInstalled
+180 warn a@1.0.0 No description
+181 verbose If you need help, you may report this error at:
+181 verbose     <https://github.com/npm/npm/issues>
+182 warn a@1.0.0 No repository field.
+183 verbose If you need help, you may report this error at:
+183 verbose     <https://github.com/npm/npm/issues>
+184 verbose stack Error: sync-prompt@0.4.2 install: `node-gyp rebuild`
+184 verbose stack Exit status 1
+184 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
+184 verbose stack     at emitTwo (events.js:106:13)
+184 verbose stack     at EventEmitter.emit (events.js:191:7)
+184 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+184 verbose stack     at emitTwo (events.js:106:13)
+184 verbose stack     at ChildProcess.emit (events.js:191:7)
+184 verbose stack     at maybeClose (internal/child_process.js:885:16)
+184 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+185 verbose pkgid sync-prompt@0.4.2
+186 verbose cwd /home/nathan/Documents/mathex/lib
+187 error Linux 4.4.0-21-generic
+188 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "sync-prompt"
+189 error node v7.4.0
+190 error npm  v4.0.5
+191 error code ELIFECYCLE
+192 error sync-prompt@0.4.2 install: `node-gyp rebuild`
+192 error Exit status 1
+193 error Failed at the sync-prompt@0.4.2 install script 'node-gyp rebuild'.
+193 error Make sure you have the latest version of node.js and npm installed.
+193 error If you do, this is most likely a problem with the sync-prompt package,
+193 error not with npm itself.
+193 error Tell the author that this fails on your system:
+193 error     node-gyp rebuild
+193 error You can get information on how to open an issue for this project with:
+193 error     npm bugs sync-prompt
+193 error Or if that isn't available, you can get their info via:
+193 error     npm owner ls sync-prompt
+193 error There is likely additional logging output above.
+194 verbose exit [ 1, true ]
