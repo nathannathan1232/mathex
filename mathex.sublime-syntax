@@ -1,0 +1,54 @@
+%YAML 1.2
+---
+file_extensions:
+  - [mathex, mex, mx]
+scope: source.mathex
+contexts:
+  main:
+    # Strings begin and end with quotes, and use backslashes as
+    # an escape character
+    - match: '"'
+      scope: punctuation.definition.string.begin.mathex
+      push: double_quoted_string
+
+    # Comments begin with a '#' and finish at the end of the line
+    - match: '#'
+      scope: punctuation.definition.comment.mathex
+      push: line_comment
+
+    # Keywords
+    - match: '\b(if|repeat|while)\b'
+      scope: keyword.control.mathex
+
+    # Numbers
+    - match: '\b-?\.?[0-9]+\.?[0-9]*(?:e\-|e)?[0-9]*\b'
+      scope: constant.numeric.mathex
+
+    # Function define
+    - match: '\<\-'
+      scope: entity.name.function.mathex
+    
+    # Operators
+    - match: '(?:<<|>>|\*\*|\|\||[\:\-+*/%\.]=|[+\-/*%=^<>\|\&\.])'
+      scope: keyword.operator.mathex
+
+    # Function call
+    - match: '[a-zA-Z_]+(?=\()'
+      scope: meta.function-call.mathex
+
+    # Annotation
+    - match: '@[a-zA-Z_]+'
+      scope: keyword.other
+
+  double_quoted_string:
+    - meta_scope: string.quoted.double.mathex
+    - match: '\\.'
+      scope: constant.character.escape.mathex
+    - match: '"'
+      scope: punctuation.definition.string.end.mathex
+      pop: true
+
+  line_comment:
+    - meta_scope: comment.line.mathex
+    - match: $
+      pop: true
