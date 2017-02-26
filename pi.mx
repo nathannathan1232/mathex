@@ -1,0 +1,21 @@
+# Include the library with stndard math functions
+@include "stdlib";
+# Set the precision to 100 significant digits
+@precision 1e2;
+# Function to calculate one iterations of the formula
+pi(n) <-
+	-1 ** n * factorial(6 * n) *
+	(13591409 + 545140134 * n)
+	/
+	(factorial(3 * n) * factorial(n) ** 3 *
+	640320 ** (3 * n + 3 / 2));
+
+i = 0;
+r = pi(0);
+# Do 7 iterations of the formula and add them together
+repeat 7 {
+	r += pi(i += 1);
+}
+# Take the inverse of that * 12, and you have pi to
+# 100 decimal places!
+1 / (r * 12)

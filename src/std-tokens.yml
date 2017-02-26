@@ -1,0 +1,52 @@
+name: std_tokens
+description: The standard token definitions
+tokens:
+  - name: comment
+    match: "\\s*#.*"
+    action: discard
+
+  - name: annotation
+    match: \s*@[a-zA-Z_]+
+  
+  - name: keyword
+    match: \s*(?:if|while|repeat)
+
+  - name: block_start
+    match: \s*{
+
+  - name: block_end
+    match: \s*}
+
+  - name: string
+    match: \s*\"[^\"\\]*(?:\\.[^\"\\]*)*\"
+
+  - name: comma
+    match: \s*,
+
+  - name: line_end
+    match: \s*;
+
+  - name: number
+    match: \s*-?\.?[0-9]+\.?[0-9]*(?:e\-|e)?[0-9]*
+  
+  - name: function_define
+    match: \s*<-
+
+  - name: function_call
+    match: \s*[a-zA-Z_]+\(
+
+  - name: operator
+    match: \s*(?:<<|>>|\*\*|\|\||[\:\-+*/%\.]=|[+\-/*%=^<>\|\&\.])
+  
+  - name: open_parinthesis
+    match: \s*\(
+
+  - name: close_parinthesis
+    match: \s*\)
+
+  - name: newline
+    match: \s*\n[\n\s]*
+    action: discard
+
+  - name: variable
+    match: \s*[a-zA-Z_]+
