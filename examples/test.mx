@@ -1,0 +1,16 @@
+@include "stdlib";
+@precision 1e3;
+pi(n) <-
+	-1 ** n * factorial(6 * n) *
+	(13591409 + 545140134 * n)
+	/
+	(factorial(3 * n) * factorial(n) ** 3 *
+	640320 ** (3 * n + 3 / 2));
+
+i = 0;
+r = pi(0);
+repeat 50 {
+	r += pi(i += 1);
+}
+
+1 / (r * 12)

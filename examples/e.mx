@@ -1,0 +1,7 @@
+@include "stdlib";
+@precision 1e3;
+
+n = 1e-300;
+
+# Returns E, correct to 300 digits
+(1 + n) ** (1 / n)
