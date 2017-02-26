@@ -3,8 +3,8 @@
 # To compile coffeescript to js, go into the main directory and do:
 # coffee -c -o lib src
 # 
-# Run using:
-# node lib/index.js <filename>
+# Run using (from the lib directory):
+# node index.js <filename>
 # replace <filename> with the name of your .mx file.
 
 fs = require('fs')

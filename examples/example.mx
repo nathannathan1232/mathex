@@ -1,0 +1,40 @@
+# Include libraries with the include
+# annotation.
+@include "stdlib";
+
+# Set the max precision (significant digits) like this.
+@precision 1e1;
+
+# Set variables like this.
+num = 0;
+
+# You can use while loops, repeat loops, and if statments.
+if num < 5 {
+	# Shorthand for num = num + 1
+	num += 1;
+}
+
+while num < 10 {
+	num += 1;
+}
+
+repeat 5 + 3 {
+	num -= 1;
+}
+
+# Num should now be 10.
+
+# Declare functions like this.
+
+add(a, b) <- a + b;
+
+# Call them like this.
+i = add(4, 5 / 3);
+
+# There are some built-in functions too.
+log(5);
+sin(8);
+
+# ...and constants
+PI;
+E;
